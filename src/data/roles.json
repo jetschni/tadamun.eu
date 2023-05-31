@@ -1,0 +1,34 @@
+{
+    "roles": [
+        {
+            "name": "Software Engineer",
+            "background_image": "software_engineer.jpg",
+            "description": "Build cutting-edge software solutions."
+        },
+        {
+            "name": "Designer",
+            "background_image": "designer.jpg",
+            "description": "Create stunning visual experiences."
+        },
+        {
+            "name": "Customer Support",
+            "background_image": "customer_support.jpg",
+            "description": "Deliver exceptional customer service, get happier customers."
+        },
+        {
+            "name": "Virtual Assistant",
+            "background_image": "virtual_assistant.jpg",
+            "description": "Provide remote administrative support."
+        },
+        {
+            "name": "Researcher",
+            "background_image": "researcher.jpg",
+            "description": "Conduct in-depth research and analysis."
+        },
+        {
+            "name": "Support tasks",
+            "background_image": "support_tasks.jpg",
+            "description": "Become the backbone by supporting with tasks."
+        }
+    ]
+}
