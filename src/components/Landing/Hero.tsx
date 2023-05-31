@@ -38,7 +38,7 @@ function Hero() {
             <div className="w-auto px-4">
               <div className="max-w-2xl xl:max-w-3xl mx-auto text-center">
                 <h1 className="text-4xl xs:text-6xl md:text-4xl font-heading mb-10">
-                  Are you looking for a remote job for a great German 🇩🇪 or
+                  Are you looking for a remote job in a great German 🇩🇪 or
                   European 🇪🇺 company?
                 </h1>
                 <p className="max-w-md mx-auto md:text-lg text-md mb-10">
