@@ -2,6 +2,7 @@ import { getRoleData } from "@/lib/dataConnector";
 import React from "react";
 import RolesCard from "./Roles/RolesCard";
 import { Role } from "@/typings";
+import Link from "next/link";
 
 type RoleProps = {
   data: Array<Role>;
@@ -31,10 +32,13 @@ function Roles({ data }: RoleProps) {
           ))}
         </div>
         <div className="text-center mt-10 text-xl">
-          Looking for a different role? <br />
-          <a href="" className="underline hover:no-underline">
-            Still, you can join our talent pool.
-          </a>
+          <Link
+            href={"https://airtable.com/shr3YHd3xTfS0tLEv?prefill_Role=Other"}
+            target="_blank"
+            className="underline hover:no-underline"
+          >
+            Looking for a different role?
+          </Link>
         </div>
       </div>
     </section>
