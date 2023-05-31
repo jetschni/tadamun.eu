@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Footer() {
@@ -19,12 +20,12 @@ function Footer() {
         <div className="container px-4 mx-auto">
           <div className="relative flex flex-wrap -mx-4 items-center justify-between">
             <div className="w-full sm:w-auto px-4 mb-8 sm:mb-0 text-center">
-              <a className="inline-block mr-8 text-xs text-black" href="#">
-                Privacy Policy
-              </a>
-              <a className="inline-block text-xs text-black" href="#">
-                Legal
-              </a>
+              <Link
+                className="inline-block mr-8 text-xs text-black"
+                href="/privacy"
+              >
+                Privacy Notice
+              </Link>
             </div>
             <div className="mt-3 lg:mt-0 block absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 px-4 text-center">
               <span className="block text-2xs text-gray-100">
