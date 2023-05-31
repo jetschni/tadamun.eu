@@ -1,0 +1,20 @@
+{
+    "faqs": [
+        {
+            "question": "What types of jobs do you offer?",
+            "answer": "We offer both part-time and full-time remote jobs, as well as project-focused jobs."
+        },
+        {
+            "question": "In which currency do you pay?",
+            "answer": "We pay in either Euros or Egyptian pounds, depending on your preference."
+        },
+        {
+            "question": "What happens after I join the Tadamun talent pool?",
+            "answer": "After you join our talent pool, we will reach out to learn more about your skills and aspirations. When we find a company that aligns with your profile, we will immediately contact you and help you in onboarding."
+        },
+        {
+            "question": "Do I need to have prior remote work experience?",
+            "answer": "While prior remote work experience can be beneficial, it is not a requirement. We value skills, dedication, and the willingness to adapt to remote work environments."
+        }
+    ]
+}

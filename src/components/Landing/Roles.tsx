@@ -16,7 +16,8 @@ function Roles({ data }: RoleProps) {
             Roles
           </h1>
           <p className="text-2xl">
-            Are you ready? In a few clicks you can join our talent pool!
+            Ready? Join our talent pool in a few clicks! Are you ready? In a few
+            clicks you can join our talent pool!
           </p>
         </div>
         <div className="flex flex-wrap -mx-3 -mb-6 text-black">
@@ -29,8 +30,8 @@ function Roles({ data }: RoleProps) {
             />
           ))}
         </div>
-        <div className="text-center mt-10 text-xl font-bold">
-          Looking for a different role?{" "}
+        <div className="text-center mt-10 text-xl">
+          Looking for a different role? <br />
           <a href="" className="underline hover:no-underline">
             Still, you can join our talent pool.
           </a>

@@ -37,11 +37,11 @@ function Hero() {
             <div className="hidden md:block w-autopx-4"></div>
             <div className="w-auto px-4">
               <div className="max-w-2xl xl:max-w-3xl mx-auto text-center">
-                <h1 className="text-6xl xs:text-8xl md:text-4xl font-heading mb-10">
+                <h1 className="text-4xl xs:text-6xl md:text-4xl font-heading mb-10">
                   Are you looking for a remote job for a great German 🇩🇪 or
                   European 🇪🇺 company?
                 </h1>
-                <p className="max-w-md mx-auto text-lg mb-10">
+                <p className="max-w-md mx-auto md:text-lg text-md mb-10">
                   We help individuals from Egypt to find part & full-time remote
                   jobs in Germany and Europe.
                 </p>
