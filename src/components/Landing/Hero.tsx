@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Hero() {
@@ -9,9 +10,10 @@ function Hero() {
             Tadamun
           </a>
           <div className="flex items-center ml-auto">
-            <a
+            <Link
               className="relative group inline-flex h-12 w-48 items-center justify-center font-semibold rounded-4xl overflow-hidden"
-              href="mailto:jobs@tadamun.xyz"
+              href="https://wa.link/rt6118"
+              target="_blank"
               style={{ ["backgroundColor"]: "rgb(79, 206, 93)" }}
             >
               <span className="relative z-10 flex text-white group-hover:text-white transition duration-500">
@@ -27,7 +29,7 @@ function Hero() {
                 Chat with us!
               </span>
               <div className="absolute top-0 left-0 h-full w-48 transform -translate-x-full group-hover:-translate-x-0 bg-black transition duration-500 ease-linear"></div>
-            </a>
+            </Link>
           </div>
         </div>
       </nav>

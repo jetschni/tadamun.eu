@@ -1,6 +1,7 @@
 import { getFAQData } from "@/lib/dataConnector";
 import React from "react";
 import FAQCards from "./Roles/FAQCards";
+import Link from "next/link";
 
 function FAQ() {
   const data = getFAQData();
@@ -26,9 +27,10 @@ function FAQ() {
           <h2 className="text-3xl font-heading font-semibold mb-4">
             More questions?
           </h2>
-          <a
+          <Link
             className="relative group inline-flex h-8 w-36 items-center justify-center font-semibold rounded-4xl"
-            href="mailto:jobs@tadamun.xyz"
+            href="https://wa.link/rt6118"
+            target="_blank"
             style={{ ["backgroundColor"]: "rgb(79, 206, 93)" }}
           >
             <span className="relative z-10 flex text-white text-2xs">
@@ -43,7 +45,7 @@ function FAQ() {
               </svg>{" "}
               Chat with us!
             </span>{" "}
-          </a>
+          </Link>
         </div>
       </div>
     </section>
