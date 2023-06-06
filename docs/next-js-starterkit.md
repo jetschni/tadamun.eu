@@ -28,3 +28,9 @@ Would you like to customize the default import alias? No
 
 
 # Font
+
+
+
+- Check prettier setup
+- Heroicons
+- Flowbite
